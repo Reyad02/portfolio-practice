@@ -179,14 +179,111 @@ header>section {
     font-weight: 700;
 }
 
-.skill-description{
-    color:  #757575;
+.skill-description {
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
 }
 
-.skill-title{
-    color:  #181818;
-font-size: 20px;
-font-weight: 700;
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.summary {
+    margin: 0 200px 100px 200px;
+
+}
+
+.summary-part {
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: left;
+    gap: 70px;
+}
+
+.edu-name {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.edu-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.edu-text {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+hr {
+    background: #D1D1D1;
+}
+
+.summary-btn {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.footer {
+    background: #FFF8F3;
+    /* margin: 0 200px; */
+
+}
+
+
+.footer-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.footer-dis {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.icons {
+    display: flex;
+    gap: 24px;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.footer-div {
+    display: flex;
+    margin: 0 200px;
+    gap: 130px;
+    padding-bottom: 110px;
+}
+
+.footer-description {
+    width: 50%;
+}
+
+.footer-form {
+    width: 50%;
+    margin-left: 80px;
+    margin-right: 45px;
 }
