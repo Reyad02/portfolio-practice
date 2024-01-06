@@ -105,3 +105,88 @@ header>section {
     margin: 0;
 
 }
+
+.about-me {
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 0 200px;
+    padding: 100px 0px;
+    margin-bottom: 130px;
+
+}
+
+.about-me-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    /* padding-top: 100px; */
+}
+
+.about-me-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 150px;
+}
+
+.about-me-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.about-me-ans {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.about-me-ques {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+}
+
+
+.what-i-do {
+    margin: 0 200px 130px 200px;
+
+}
+
+.skills {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.skill {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-description{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.skill-title{
+    color:  #181818;
+font-size: 20px;
+font-weight: 700;
+}
