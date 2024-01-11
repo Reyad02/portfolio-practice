@@ -11,6 +11,11 @@ header {
     background-position: top left, bottom right;
     margin-bottom: 130px;
 }
+.top-head > a{
+    text-decoration: none;
+    color: #181818;
+
+}
 
 nav {
     display: flex;
@@ -274,11 +279,12 @@ textarea {
 .footer-div {
     display: flex;
     margin: 0 200px;
-    gap: 130px;
+    /* gap: 130px; */
     padding-bottom: 110px;
+    justify-content: space-between;
 }
 
-.footer-description {
+/* .footer-description {
     width: 50%;
 }
 
@@ -286,4 +292,96 @@ textarea {
     width: 50%;
     margin-left: 80px;
     margin-right: 45px;
+} */
+
+
+
+@media screen and (max-width: 576px) {
+
+    .skills,
+    .summary-part,
+    .about-me-info,
+    header>section,
+    nav,
+    nav ul {
+        flex-direction: column;
+    }
+
+    .what-i-do,
+    .about-me-description,
+    .summary,
+    .about-me {
+        margin: auto;
+    }
+
+    .footer-div {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .icons {
+        justify-content: space-evenly;
+    }
+
+    .footer-description,
+    .footer-form {
+        text-align: center;
+    }
+
+    input[type='text'],
+    input[type='email'],
+    textarea {
+        width: 80%;
+    }
+
+    header {
+        background: none;
+        margin: auto;
+    }
+
+    header>section{
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        gap: 0;
+    }
+    .myimage{
+        margin-top: 5%;
+    }
+    .myimage>img{
+        width: 80%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .about-me-description{
+        padding: 0% 4%;
+    }
+    nav ul{
+        gap: 10px;
+    }
+    .btn-primary, .contact{
+        padding: 10px;
+        font-size: 18px;
+    }
+    nav{
+        padding: 0;
+    }
+    .my-name{
+        font-size: 50px;
+    }
+    .top-head{
+        margin-bottom: 2%;
+    }
+    .about-me{
+        padding: 8% 0;
+    }
+    .about-me-info{
+        gap: 20px;
+    }
+    .footer{
+        margin-top: 5%;
+    }
+
 }
+
+@media screen and (min-width: 576px) and (max-width: 992px) {}
